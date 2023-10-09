@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tela1 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .menu li a{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 80px;
+    color: white;
+    font-style: italic;
+}
+
+.tela1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 120px;
+    row-gap: 120px;
+    column-gap: 20px;
+
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    border: solid black 4px;
+
+    justify-content: space-around;
+    justify-items: start;
+    align-items: center;
+}
+
+.tela1 h2{
+    font-size: 50px;
+}
+
+p.destaque{
+    font-size: 40px; 
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.texto{
+    margin: 10px;
+    font-size: 21px;
+}
+
+.tela1 a{
+    padding: 15px 40px;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    border: solid black 3px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.sobre{
+    padding: 50px;
+    border: solid black 4px;
+}
+
+.sobre h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.sobre p{
+    font-size: 22px;
+}
+
+.tela3{
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+}
+
+.tela3 p{
+    font-size: 21px;
+}
+
+.tela3 h2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tela3 img{
+    width: 540px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tela3 img:hover{
+    position: relative;
+    justify-content: center;
+    transform: scale(2.2);
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.bloco{
+    border: solid black 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 20px;
+}
+
+.bloco p{
+    font-size: 26px;
+    padding: 21px;
+}
+
+.bloco a{
+    font-size: 28px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: auto;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    padding: 20px 0px 20px 0px;
+
+    font-size: 25px;
+    font-style: italic;
+}
